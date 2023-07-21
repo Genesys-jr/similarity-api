@@ -5,9 +5,8 @@ import SignInButton from "@/components/SignInButton";
 import { buttonVariants } from "@/ui/Button";
 import SignOutButton from "@/components/SignOutButton";
 
-interface NavbarProps {}
 
-const Navbar = async ({}) => {
+const Navbar = async () => {
   const session = await getServerSession();
 
   return (

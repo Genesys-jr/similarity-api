@@ -2,6 +2,8 @@ import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 import Providers from "@/components/Providers";
+import Navbar from "@/components/Navbar";
+//import ThemeToggle from "@/components/ThemeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,6 @@ export default function RootLayout({
         <Providers>
           {children}
 
-          {/* @ts-expect-error Server Component */}
           <Navbar />
         </Providers>
 

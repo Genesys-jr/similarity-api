@@ -1,7 +1,6 @@
 import { ChevronLeft, ChevronRight, Laptop, Moon, Sun } from "lucide-react";
-import { Icons } from "next/dist/lib/metadata/types/metadata-types";
 
-export const icons = {
+export const Icons = {
   ChevronLeft,
   ChevronRight,
   Sun,

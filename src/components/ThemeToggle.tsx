@@ -10,7 +10,8 @@ import {
 } from "@radix-ui/react-dropdown-menu";
 import Button from "@/ui/Button";
 import { Laptop, Moon, Sun } from "lucide-react";
-import Icons from "@/components/Icons";
+import Icons from "./Icons";
+
 
 interface ThemeToggleProps {}
 
